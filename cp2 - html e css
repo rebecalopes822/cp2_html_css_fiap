@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/main.css">
+<meta name="=viewport" content="width=device-width,initial-scale=1.0">
+<title>O poder da astronomia</title>
+ 
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+ 
+        
+        .parte-superior, .parte-inferior {
+            width: 100%;
+            height: 50vh; 
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+ 
+        @media (min-width: 600px) {
+            .parte-inferior {
+                width: 50%; 
+                flex-direction: row;
+            }
+        }
+ 
+        
+        .imagem {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+ 
+        
+        .texto {
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            transform: translate(-25%, -25%);
+            font-size: 25px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(255, 255, 255);
+        }
+ 
+        .texto1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            color: rgb(205, 221, 223);
+        }
+ 
+    </style>
+</head>
+<body>
+ 
+    
+<div class="parte-superior">
+<div class="texto">O poder da astronomia</div>
+<div class="parte-superior">
+<img class="imagem" src="https://images.pexels.com/photos/1275413/pexels-photo-1275413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem 0"></div>
+<div class="texto1"> <h1>O poder da astronomia</h1> </div>
+</div>
+ 
+    <div class="parte-inferior">
+<img class="imagem" src="https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagem 1">
+<div class="texto"> <h3>Conceito</h3> 
+<p>Astronomia é uma ciência natural que estuda corpos celestes (como estrelas, planetas, cometas, nebulosas, aglomerados de estrelas, galáxias) e fenômenos que se originam fora da atmosfera da Terra.</p> </div>
+</div>
+<div class="parte-inferior">
+<img class="imagem" src="https://images.pexels.com/photos/713664/pexels-photo-713664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagem 2">
+<div class="texto"> <h3>Importância</h3> <p> A astronomia nos permite responder a grandes questões: onde estamos, de onde viemos e para onde vamos. E o saciar da curiosidade inerente à espécie humana de entender o Universo produz também conhecimento básico para a descoberta de tecnologias e serviços essenciais em nosso dia a dia.</p></div>
+</div>
+ 
+    <div class="parte-inferior">
+<img class="imagem" src="https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagem 3">
+<div class="texto"> <h3>Quem foi o primeiro astrônomo?</h3><p> Em 19 de fevereiro de 1473, em Torun, na atual Polônia, nasce Nicolau Copérnico, pai da astronomia moderna. Foi o primeiro cientista europeu a propor que a Terra e outros planetas giravam ao redor do Sol, e não o contrário.</p></div>
+</div>
+ 
+    <div class="parte-inferior">
+<img class="imagem" src="https://images.pexels.com/photos/1694000/pexels-photo-1694000.jpeg" alt="Imagem 4">
+<div class="texto"> <h3>Diferença entre Astronomia e Astrologia</h3><p>Enquanto a Astronomia é a ciência responsável em estudar todos os corpos celestes, a Astrologia é uma pseudociência, trata-se de da prática de perceber a influência dos astros na vida e personalidade das pessoas.
+
+    A Astrologia não tem comprovação científica. Quem pratica a astrologia é chamado de astrólogo.</p>
+</div>
+</div>
+
+</body>
+</html>
